@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript">
+		// var click=true;
+		// document.getElementsByClass("container").style.display="none";
+		// function show(){
+		// 	var hide=document.getElementsByClassName("container");
+		// 	// if(click){
+		// 		document.getElementsByClassName("show").innerHTML=hide;
+		// 	// }
+		// 	// else{
+		// 		document.getElementsByClassName("show").innerHTML="";	
+		// 		click=true;
+		// 	// }
+		// }
+		function show(){
+		document.getElementById("container").style.display="block";
+	}
+
+	</script>
+	<style type="text/css">
+		.card-body{
+			background-color: #FDB91C;
+		}
+		.card-header{
+			background-color: #E7E6E5;
+		}
+		.card-footer{
+			background-color: blue;
+		}
+		#container{
+			margin-top: -320px;
+			margin-right: 10px;
+			border-style: solid;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div className="row justify-content-center">
+		<div class="card text-center col-lg-4" style="width:16rem">
+	<div class="card-header">
+		<img src="profile.svg" alt="User_Profile" class="card-img-top" style="width:30%">
+	</div>
+	<div class="card-body">
+		<h3>DHANUSH TEJA</h3>
+		<p class="card-text">tejadhanush@gmail.com</p>
+		<p class="card-text">7013565052</p>
+	</div>
+	<div class="card-footer">
+	<input type="button" class="btn btn-primary" value="show" onclick="show()" />
+</div></div>
+<div id="container" class="col-lg-9 p-2" style="display:none">
+	<center><h2>Resume</h2></center><hr>
+	<h3>Objective:</h3>
+	<ul>
+	<li>To seek a challenging, growth oriented position in a progressive and innovative Organization that will utilize my skills and interests in the growth of the organisation.</li></ul><hr>
+	<h3>Academic Qualifications:</h3>
+	<div class="table-responsive">
+	<table class="table table-striped" border="1">
+		<thead><th>Degree</th><th>Institute</th><th>Year</th><th>Percentage/CGPA</th></thead>
+		<tbody><tr>
+			<td>B.Tech</td><td>KLU</td><td>2019</td><td>6.97</td>
+		</tr>
+		<tr><td>BIEAP(M.P.C)</td><td>Sri Chaitanya Junior College</td><td>2015</td><td>85</td></tr>
+	<tr><td>S.S.C</td><td>GMS</td><td>2013</td><td>88</td></tr>
+	</tbody>
+	</table></div>
+	<h3>Technical Skills:</h3>
+<ul>
+	<li>Languages:</li>
+	<ul><li>C</li><li>Java</li><li>Python</li></ul>
+	<li>Software Tools</li>
+	<ul><li>MySQL</li></ul>
+</ul>
+<h3>Projects:</h3>
+<ul>
+<li>Rain fall Prediction Using Machine Learning</li>
+<li>employee Management using C Language</li></ul>
+<h3>Declaration:</h3>
+<p>I hereby declare that the above said information is true and correct to the best of my knowledge and belief.</p>
+</div></div>
+</body>
+</html>
